@@ -2,8 +2,8 @@
 
 This repository contains the necessary updates on my ongoing thesis on the above topic. 
 ### Setup:
-- **Configuration space of hyperparameters**: \( \Theta \)
-- **(Random) metric function**: \( S: \Theta \to \mathbb{R} \)
+- **Configuration space of hyperparameters**: $ \Theta$
+- **(Random) metric function**: $$ S: \Theta \to \mathbb{R}$$
 - We can evaluate \( S \) at points \( \theta \in \Theta \), but each evaluation is costly.
 - We assume distinct evaluations \( S(\theta_1), S(\theta_2), \dots, S(\theta_n) \) are independent.
 - We only have access to the order of the values: 
