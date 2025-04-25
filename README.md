@@ -7,9 +7,9 @@ This repository contains the necessary updates on my ongoing thesis on the above
 - We can evaluate $S$ at points $\theta \in \Theta$, but each evaluation is costly.
 - We assume distinct evaluations $S(\theta_1), S(\theta_2), \dots, S(\theta_n)$ are independent.
 - We only have access to the order of the values: 
-  $$
+  $
   S(\theta_{i1}) < S(\theta_{i2}) < \dots < S(\theta_{in})
-  $$
+  $
 
 ### Goal:
 Find hyperparameters $\theta^* \in \Theta$ which minimize $S$, while limiting the number of evaluations of $S$.
