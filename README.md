@@ -15,3 +15,9 @@ Find hyperparameters $\theta^* \in \Theta$ which minimize $S$, while limiting th
 
 ### PL_Model Notebook
 This notebook contains an inference model based on pairwise ranking data. The implementation uses Maximum Likelihood Estimation (MLE) to estimate the relative worth of different items based on their pairwise competition outcomes. Two different approaches were explored: The closed form formula and Gradient ascent with pytorch.
+
+### AutoregressiveModel Notebook
+It is specific about the AR data and model, it is not written for generic. The Rank-Based BO notebook, contains everything in it.
+
+### Rank-Based-Bayesian-Optimization
+This contains the entire code for the project. The proposed RBO, the generated data and AR model, as well as the benchmark (optuna and Random Search)
